@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;800&display=swap');
+
+/* Configurações Gerais */
+:root{
+  --cor-fundo: #fefdff;
+  --cor-primaria: #8eb1c7;
+  --cor-secundaria: #50723c;
+  --cor-texto: #414066;
+  --cor-destaque: #e6af2e;
+}
+
+*{
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Menu */
+.navbar-brand {
+  font-weight: 600;
+  letter-spacing: .2rem;
+  text-transform: uppercase;
+}
+
+.navbar-collapse {
+  justify-content: flex-end;
+}
+
+.fantasminha {
+  height: 82px;   
+}
+
+/* Carrosel */
+.carousel-inner {
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+}
+
+.carousel-item {
+  align-items: center;
+  backface-visibility: hidden;
+  display: none;
+  position: relative;
+  transition: transform .6s ease;
+  width: 100% !important;
+}
+
+.carousel-item {
+  background-size: cover;
+}
+
+.carousel-inner > .carousel-item > img {
+  width: 100%;
+  height: 60%; 
+}
+
+/* Conteúdo */ 
+.titulo h2 {
+  border-left: 4px solid var(--cor-destaque);
+  margin: 2rem 0;
+  padding-left: .9rem;
+}
+
+.texto p{
+  line-height: 1.5;
+  text-align: justify;
+  text-indent: 1.5rem;
+}
+
+.mapa h3 {
+  font-size: 1rem;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+/* Rodapé */
+.l-baixo {
+  background-color: var(--cor-secundaria);
+  display: inline-block;
+  height: 2px;
+  margin: 0 auto 4px auto;
+  width: 85px;
+}
+
+.page-footer {
+  background-color: var(--cor-primaria);
+}
+
+.sociais {
+  background-color: var(--cor-texto);
+}
+
+.sociais .fab {
+  color: var(--cor-destaque);
+  margin-left: 1.5rem;
+}
+
+.sociais .fab:hover {
+  font-size: 2rem;
+}
+
+.logos img{
+  height: 90px;
+}
+
+.empresas{
+  list-style: none;
+  padding-right: 16px;
+  color: black;
+}
+
+.empresas a {
+  color: #212529;
+}
+
+.footer-titlte {
+  font-weight: bold;
+}
+
+@media (max-width: 280px) {
+  .d-flex {
+    flex-wrap: wrap;
+  }
+}
+
+.alto-contraste1 {
+  background-color: black;
+  color: var(--cor-destaque);
+}

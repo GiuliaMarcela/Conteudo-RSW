@@ -1,0 +1,32 @@
+.col-sm-4 img{
+    width: 200px;
+    height: 200px;
+   
+}
+.row{
+    margin-top: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    vertical-align: 10px;
+}
+.rowimpar{
+    background-color:#8eb1c7;
+    border-radius: 10px;
+}
+.teste{
+    justify-content: center;
+    width: 350px;
+    height: auto;
+}
+.teste img{
+    align-items: center;
+}
+
+p {
+    text-align: justify;
+}
+
+.alto-contraste1 {
+    background-color: black;
+    color: var(--cor-destaque);
+}

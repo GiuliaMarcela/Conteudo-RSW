@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;800&display=swap');
+
+/* Configurações Gerais */
+:root{
+  --cor-fundo: #fefdff;
+  --cor-primaria: #8eb1c7;
+  --cor-secundaria: #50723c;
+  --cor-texto: #414066;
+  --cor-destaque: #e6af2e;
+}
+
+*{
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/*Página Contato*/
+.titulo{
+  text-align: center;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+
+.texto p {
+  text-align: justify;
+}
+
+.texto{
+  padding-right: 3rem;
+  padding-left: 3rem;
+}
+
+label, .btn{
+  margin-top: 1rem;
+}
+
+.btn {
+  margin-bottom: 5rem;
+}
+
+@media (min-width: 1024px) {
+  .texto {
+    position:absolute;
+    top: 12rem;
+  }
+}
+
+.alto-contraste1 {
+  background-color: black;
+  color: var(--cor-destaque);
+}

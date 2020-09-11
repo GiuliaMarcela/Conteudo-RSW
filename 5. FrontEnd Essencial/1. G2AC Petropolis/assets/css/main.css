@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;800&display=swap');
+
+/* Configurações Gerais */
+:root{
+  --cor-fundo: #fefdff;
+  --cor-primaria: #8eb1c7;
+  --cor-secundaria: #50723c;
+  --cor-texto: #414066;
+  --cor-destaque: #e6af2e;
+}
+
+*{
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Menu */
+.navbar-brand {
+  font-weight: 600;
+  letter-spacing: .2rem;
+  text-transform: uppercase;
+}
+
+.navbar-collapse {
+  justify-content: flex-end;
+}
+
+.fantasminha {
+  height: 82px;   
+}
+/*Carrosel Slide*/
+
+#carouselExampleCaptions .carousel-inner{
+  height: 100vh;
+  position: relative;
+  width: 100%;
+}
+
+#carouselExampleCaptions .carousel-inner:before{
+  background: rgba(0, 0, 0, .25);
+  content: '';
+  height: 100vh;
+  position: absolute;
+ 
+  /**/
+  top: 0;
+  left: 0;  
+  width: 100%;
+  z-index: 1;
+}
+
+#carouselExampleCaptions .carousel-inner .carousel-item {
+  background: url('../img/willian-justen-de-vasconcellos-2rB5CLgSN0c-unsplash.jpg');
+  background-size: cover;
+  background-position: center;
+  /* ----- */
+  height: 100vh;
+  position: relative;
+  width: 100%;
+}
+
+#carouselExampleCaptions .carousel-inner .carousel-item:nth-child(2) {
+  background: url('../img/carlos-de-almeida-f0_PcmpxnW4-unsplash.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+#carouselExampleCaptions .carousel-inner .carousel-item:nth-child(3){
+  background: url('../img/mauro-lima-r3bRZWtV-oM-unsplash.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+/* Cards */
+
+#eventos,
+#trilhas,
+#gastronomia,
+#pontos-turisticos { 
+  padding: 1rem 0;
+}
+
+.title {
+  margin: 2rem 0 2rem 0;
+  text-align: center;
+}
+
+.row {
+  justify-content: center;
+}
+
+.card {
+  margin: .75rem 1rem .75rem 1rem;
+}
+
+.card img {
+  height: 180px;
+}
+
+.card-title {
+  color: var(--cor-texto);
+  font-weight: 600;
+}
+
+.botao {
+  margin: 0rem 0 1rem 1rem;
+}
+
+/* Rodapé */
+.l-baixo {
+  background-color: var(--cor-secundaria);
+  display: inline-block;
+  height: 2px;
+  margin: 0 auto 4px auto;
+  width: 85px;
+}
+
+.page-footer {
+  background-color: var(--cor-primaria);
+}
+
+.sociais {
+  background-color: var(--cor-texto);
+}
+
+.sociais .fab {
+  color: var(--cor-destaque);
+  margin-left: 1.5rem;
+}
+
+.sociais .fab:hover {
+  font-size: 2rem;
+}
+
+.logos img{
+  height: 90px;
+}
+
+.empresas{
+  list-style: none;
+  padding-right: 16px;
+}
+
+.empresas a {
+  color: #212529;
+}
+
+.footer-titlte {
+  font-weight: bold;
+}
+
+@media (max-width: 280px) {
+  .d-flex {
+    flex-wrap: wrap;
+  }
+}
+
+.alto-contraste1 {
+  background-color: black;
+  color: var(--cor-destaque);
+}

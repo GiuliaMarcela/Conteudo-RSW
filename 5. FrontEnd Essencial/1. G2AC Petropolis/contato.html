@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+
+    <!--Bootstrap CDN-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+    <!--CSS-->
+    <link rel="stylesheet" href="assets/css/secundary.css">
+    <link rel="stylesheet" href="assets/css/contato.css">
+
+    <!--Fonts-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css"
+        integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
+
+    <script src="assets/js/script.js"></script>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="index.html"><img src="assets/img/logo-menu-transparente-2.png"
+                    alt="Logo Equipe G2AC"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">O que fazer?
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item" href="index.html#eventos">Eventos</a>
+                            <a class="dropdown-item" href="index.html#trilhas">Trilhas</a>
+                            <a class="dropdown-item" href="index.html#gastronomia">Gastronomia</a>
+                            <a class="dropdown-item" href="index.html#pontos-turisticos">Pontos Turísticos</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="sobre.html">Sobre</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contato.html">Contato</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Acessibilidade<i
+                                class="fas fa-universal-access"></i>
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item" onclick="altoContraste()">Alto Contraste</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <!--Fim Menu-->
+    <div class="fantasminha">
+
+    </div>
+    <!--Div Fantasma-->
+    <section>
+        <div class="container">
+            <h1 class="titulo">Contato</h1>
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="row">
+                        <div class="texto">
+                            <p>
+                                O G2AC possui um imenso prazer em responder a todas as mensagens que lhe são dirigidas,
+                                sejam estas categorizadas como: sugestões, elogios ou reclamações. Por isso, pedimos que
+                                você, usuário, contribua para que possamos melhorar mais a cada dia.
+
+                                <br>Obrigado!
+
+                                <br>Equipe, G2AC.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-12 col-sm-12">
+                    <div class="container">
+                        <form id="formulario" name="formulario" onsubmit="validarDados()" method="GET">
+                            <div class="form-row">
+                                <label>Nome</label>
+                                <input type="text" name="nome" id="nome" class="form-control"
+                                    placeholder="Digite seu nome completo." required>
+                                <label>E-mail</label>
+                                <input type="email" name="email" id="email" class="form-control"
+                                    placeholder="Digite seu e-mail." required>
+                                <label>Assunto</label>
+                                <input type="text" name="assunto" id="assunto" class="form-control"
+                                    placeholder="Elogio e/ou sugestão." required>
+                                <label>Mensagem</label>
+                                <textarea class="form-control" rows="10" name="mensagem" id="mensagem"
+                                    placeholder="Deixe sua mensagem aqui." required></textarea>
+                                <button class="btn btn-primary" type="submit" value="Enviar">Enviar</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Footer aqui-->
+    <footer class="page-footer">
+        <div class="sociais">
+            <div class="container">
+                <div class="row py-4 d-flex align-items-center">
+                    <div class="col-md-12 text-center">
+                        <a href="https://github.com/AbJoia/G2AC-RSW" target="_blank"><i class="fab fa-github"></i></a>
+                        <a href="https://twitter.com/jack" target="_blank"><i class="fab fa-twitter"></i></a>
+                        <a href="https://www.linkedin.com/in/reidhoffman/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="https://www.facebook.com/zuck" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                        <a href="https://www.instagram.com/mikeyk/?hl=pt-br" target="_blank"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container text-md-left mt-5">
+            <div class="row">
+                <div class="col-sm-12 col-md-2 mx-auto mb-4">
+                    <h6 class="footer-titlte">
+                        Empresas Parceiras
+                    </h6>
+                    <span class="l-baixo"></span>
+                    <div class="d-flex">
+                        <nav>
+                            <ul class="empresas">
+                                <li><a href="http://serratec.org/" target="_blank">T2M</a></li>
+                                <li><a href="http://serratec.org/" target="_blank">Nekiit</a></li>
+                                <li><a href="http://serratec.org/" target="_blank">Orange</a></li>
+                                <li><a href="http://serratec.org/" target="_blank">TOBrasil</a></li>
+                                <li><a href="http://serratec.org/" target="_blank">JRContabilidade</a></li>
+                            </ul>
+                        </nav>
+                        <nav>
+                            <ul class="empresas">
+                                <li><a href="http://serratec.org/" target="_blank">INFO4</a></li>
+                                <li><a href="http://serratec.org/" target="_blank">Humanaz</a></li>
+                                <li><a href="http://serratec.org/" target="_blank">MentorApp</a></li>
+                                <li><a href="http://serratec.org/" target="_blank">TecnoResolve</a></li>
+                                <li><a href="http://serratec.org/" target="_blank">Casa&Garagem</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-4 mx-auto mb-4">
+                    <h6 class="footer-titlte">
+                        Destaque
+                    </h6>
+                    <span class="l-baixo"></span>
+                    <div class="logos">
+                        <img src="assets/img/logo-serratec-pequena-transparente.png" alt="">
+                        <img src="assets/img/logosenai-transparente-2.png" alt="">
+                        <img src="assets/img/LogoG2AC 2.0.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!--Fim Footer-->
+    <!--Scripts-->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous">
+        </script>
+
+</body>
+
+</html>
