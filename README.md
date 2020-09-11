@@ -3,6 +3,7 @@
 Me chamo **Giulia Marcela**, nasci em 20 de novembro de 1998. Sou apaixonada por **tecnologia**, **jogos** e **arte**. E na programação, encontrei um caminho para juntar todas as minhas paixões. Esse repositório foi criado com o intuito de agrupar os conteúdos desenvolvidos durante o curso de **Residência de Software**.
 
 ### Conteúdo abordado até o momento 👩‍💻
+
 1. Nivelamento 
 2. Banco de Dados
 3. Java
