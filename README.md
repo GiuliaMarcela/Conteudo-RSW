@@ -1,6 +1,6 @@
 # Hello There!👋
 
-Me chamo **Giulia Marcela**, nasci em 20 de novembro de 1998. Sou apaixonada por **tecnologia**, **jogos** e **arte**. E na programação, encontrei um caminho para juntar todas as minhas paixões. Esse repositório foi criado com o intuito de agrupar os conteúdos desenvolvidos durante o curso de **Residência de Software**.
+Esse repositório foi criado com o intuito de agrupar os conteúdos desenvolvidos durante o curso de **Residência de Software**.
 
 ### Conteúdo abordado até o momento 👩‍💻
 
@@ -20,5 +20,4 @@ Me chamo **Giulia Marcela**, nasci em 20 de novembro de 1998. Sou apaixonada por
 <a href="https://www.instagram.com/naoseiserio" target="_blank">
 <img src="https://img.shields.io/badge/instagram-%23E4405F.svg?&style=for-the-badge&logo=instagram&logoColor=white"></a>
 
-Eu checo meu e-mail toda manhã/noite, então se você quiser entrar em contato, eu estou aqui. 
 
