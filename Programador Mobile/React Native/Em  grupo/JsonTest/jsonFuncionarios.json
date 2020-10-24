@@ -1,0 +1,47 @@
+[
+    {
+        "id": 1,
+        "nome": "Josescleitos",
+        "cpf": "17602085078"
+    },
+    {
+        "id": 2,
+        "nome": "Maria Joséee",
+        "cpf": "17602085078"
+    },
+    {
+        "id": 3,
+        "nome": "Joaquim Manoel",
+        "cpf": "99124915050"
+    },
+    {
+        "id": 79,
+        "nome": "Cicero cir",
+        "cpf": "16042813757"
+    },
+    {
+        "id": 81,
+        "nome": "erick",
+        "cpf": "17189221751"
+    },
+    {
+        "id": 84,
+        "nome": "Guilherme",
+        "cpf": "19359464716"
+    },
+    {
+        "id": 89,
+        "nome": "JeanLuc",
+        "cpf": "17189221751"
+    },
+    {
+        "id": 90,
+        "nome": "Gabriel",
+        "cpf": "17189221751"
+    },
+    {
+        "id": 91,
+        "nome": "pedro",
+        "cpf": "18920591776"
+    }
+]
