@@ -16,5 +16,6 @@ O programa visa aumentar a oferta de profissionais qualificados em tecnologia, d
 
 6. [ ReactJS ](https://github.com/GiuliaMarcela/residencia-de-software/tree/master/Programador%20Mobile/ReactJS)
 7. [React Native](https://github.com/GiuliaMarcela/residencia-de-software/tree/master/Programador%20Mobile/React%20Native/Em%20%20grupo)
+  - [React Native - Individual](https://github.com/GiuliaMarcela/clone-spotify)
 
 
